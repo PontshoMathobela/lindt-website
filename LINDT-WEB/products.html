@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lindt Quantum Rentals - Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Lindt Quantum Rentals</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>Reliable Shuttle Rentals</h2>
+            <p>
+               Take a look at our Shuttles and rent with us.
+            </p>
+            <form class="rental-form" action="#" method="post">
+                <label for="vehicle">Choose a vehicle:</label>
+                <select id="vehicle" name="vehicle" required>
+                    <option value="">--Select Quantum--</option>
+                    <option value="quantum1">Quantum 1</option>
+                    <option value="quantum2">Quantum 2</option>
+                   </select>
+                <br><br>
+                <label for="rental-type">Rental type:</label>
+                <select id="rental-type" name="rental-type" required>
+                    <option value="">--Select Type--</option>
+                    <option value="short-term">Short Term</option>
+                    <option value="long-term">Long Term</option>
+                </select>
+                <br><br>
+                <label for="start-date">From:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <label for="end-date">To:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                <br><br>
+                <button type="submit">Check Availability</button>
+            </form>
+        </section>
+        <section class="products">
+            <h2>Our Shuttle Fleet</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="images/quantum1.jpg" alt="Shuttle 1">
+                    <h3>Shuttle 1</h3>
+                    <p>Spacious and comfortable, ideal for group transport.</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/quantum2.jpg" alt="Shuttle 2">
+                    <h3>Shuttle 2 </h3>
+                    <p>Well-maintained and reliable for long-distance travel includes:Trailor.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Lindt Shuttle services. All rights reserved.</p>
+    </footer>
+</body>
+</html>
